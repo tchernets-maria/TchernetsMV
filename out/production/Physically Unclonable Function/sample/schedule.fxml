@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+
+<ScatterChart fx:id="chart" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Schedule">
+  <xAxis>
+    <NumberAxis side="BOTTOM" tickUnit="1.0E-4" upperBound="1.0" />
+  </xAxis>
+  <yAxis>
+    <NumberAxis side="LEFT" tickUnit="1.0E-4" upperBound="1.0" />
+  </yAxis>
+</ScatterChart>
